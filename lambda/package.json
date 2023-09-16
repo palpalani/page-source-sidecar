@@ -1,0 +1,16 @@
+{
+  "name": "page-source-sidecar",
+  "version": "1.0.0",
+  "description": "Get source content of any given url using Laravel Sidecar",
+  "type": "module",
+    "dependencies": {
+        "puppeteer": "^21.2.1"
+  },
+  "keywords": [
+    "sidecar",
+    "laravel",
+    "palpalani"
+  ],
+  "author": "palpalani",
+  "license": "MIT"
+}
