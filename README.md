@@ -31,8 +31,12 @@ return [
 ## Usage
 
 ```php
-$pageSource = new Palpalani\PageSource();
-echo $pageSource->echoPhrase('Hello, Palpalani!');
+use Palpalani\PageSource\PageSourceFunction;
+
+echo PageSourceFunction::execute([
+        'url' => 'https://targetbay.com',
+        'options' => '',
+    ])->body();
 ```
 
 ## Testing
