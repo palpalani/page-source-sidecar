@@ -2,9 +2,9 @@
 
 namespace Palpalani\PageSource;
 
+use Palpalani\PageSource\Commands\PageSourceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Palpalani\PageSource\Commands\PageSourceCommand;
 
 class PageSourceServiceProvider extends PackageServiceProvider
 {
