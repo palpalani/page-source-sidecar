@@ -72,14 +72,6 @@
         }
     },
     "extra": {
-        "laravel": {
-            "providers": [
-                "Palpalani\\PageSource\\PageSourceServiceProvider"
-            ],
-            "aliases": {
-                "PageSource": "Palpalani\\PageSource\\Facades\\PageSource"
-            }
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
