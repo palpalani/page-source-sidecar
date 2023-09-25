@@ -11,6 +11,23 @@ Get the Html source content of any given url using Laravel Sidecar.
 
 You can install the package via composer:
 
+Register the `PageSourceFunction` in your `sidecar.php` config file.
+
+```php
+/*
+ * All of your function classes that you'd like to deploy go here.
+ */
+'functions' => [
+    \Palpalani\PageSource\PageSourceFunction::class,
+],
+```
+Deploy the Lambda function by running:
+
+```
+php artisan sidecar:deploy --activate
+```
+See the [Sidecar documentation](https://hammerstone.dev/sidecar/docs/main/functions/deploying) for details.
+
 ```bash
 composer require palpalani/page-source-sidecar
 ```
