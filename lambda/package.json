@@ -4,12 +4,17 @@
   "description": "Get source content of any given url using Laravel Sidecar",
   "type": "module",
     "dependencies": {
-        "puppeteer": "^21.3.5"
+        "chrome-aws-lambda": "^10.1.0"
   },
   "keywords": [
     "sidecar",
     "laravel",
-    "palpalani"
+    "palpalani",
+    "browser",
+    "headless chrome",
+    "aws lamda",
+    "serverless",
+    "page source"
   ],
   "author": "palpalani",
   "license": "MIT"
