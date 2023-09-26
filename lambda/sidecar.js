@@ -21,10 +21,16 @@ exports.handler = async (event) => {
         //result = await page.content();
     	// OR the faster method that doesn't wait for images to load:
     	result = await page.content({"waitUntil": "domcontentloaded"});
+
+        await page.close();
     	await browser.close();
 
     } catch (error) {
         return formatError(error);
+    } finally {
+        if (browser !== null) {
+          await browser.close();
+        }
     }
 
     return JSON.stringify(result);

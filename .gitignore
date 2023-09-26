@@ -9,3 +9,9 @@ phpstan.neon
 testbench.yaml
 /vendor
 /node_modules
+lambda/node_modules/.bin/browsers
+lambda/node_modules/.bin/escodegen
+lambda/node_modules/.bin/esgenerate
+lambda/node_modules/.bin/esparse
+lambda/node_modules/.bin/esvalidate
+lambda/node_modules/.bin/js-yaml
