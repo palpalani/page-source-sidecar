@@ -7,5 +7,5 @@ docs
 phpunit.xml
 phpstan.neon
 testbench.yaml
-vendor
-node_modules
+/vendor
+/node_modules
