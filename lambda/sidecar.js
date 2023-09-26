@@ -10,8 +10,8 @@ export const handle = async (event) => {
         const browser = await chromeLambda.puppeteer.launch({
             args: chromeLambda.args,
             executablePath: await chromeLambda.executablePath,
-            defaultViewport: chromium.defaultViewport,
-            headless: chromium.headless,
+            defaultViewport: chromeLambda.defaultViewport,
+            headless: chromeLambda.headless,
             ignoreHTTPSErrors: true,
         });
 
