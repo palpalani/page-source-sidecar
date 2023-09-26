@@ -1,5 +1,6 @@
 // import puppeteer from 'puppeteer'
-const chromeLambda = require('chrome-aws-lambda');
+// const chromeLambda = require('chrome-aws-lambda');
+import chromeLambda from 'chrome-aws-lambda'
 
 exports.handler = async (event) => {
     try {
