@@ -1,4 +1,5 @@
-const puppeteer = require('puppeteer');
+// const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer'
 
 export const handle = async function (event) {
     let result = ''
