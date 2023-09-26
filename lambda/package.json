@@ -4,7 +4,7 @@
   "description": "Get source content of any given url using Laravel Sidecar",
   "type": "module",
     "dependencies": {
-        "puppeteer": "^21.2.1"
+        "puppeteer": "^21.3.5"
   },
   "keywords": [
     "sidecar",
