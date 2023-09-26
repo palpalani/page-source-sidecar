@@ -29,4 +29,11 @@ class PageSourceFunction extends LambdaFunction
     {
         return Runtime::NODEJS_16;
     }
+
+    public function layers(): array
+    {
+        return [
+            'arn:aws:lambda:us-west-2:764866452798:layer:chrome-aws-lambda:38',
+        ];
+    }
 }
