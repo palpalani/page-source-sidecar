@@ -28,11 +28,14 @@ export const handle = async (event) => {
 
     } catch (error) {
         return formatError(error);
-    } finally {
+    }
+    /*
+    finally {
         if (browser !== null) {
           await browser.close();
         }
     }
+    */
 
     return JSON.stringify(result);
 };
