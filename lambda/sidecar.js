@@ -2,7 +2,7 @@
 // const chromeLambda = require('chrome-aws-lambda');
 import chromeLambda from 'chrome-aws-lambda'
 
-exports.handler = async (event) => {
+export const handle = async (event) => {
     try {
         let result = ''
 
