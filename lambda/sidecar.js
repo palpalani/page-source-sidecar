@@ -1,11 +1,9 @@
-// const puppeteer = require('puppeteer');
 import puppeteer from 'puppeteer'
 
 export const handle = async function (event) {
     let result = ''
 
     try {
-        //result = mjml2html(event.mjml, event.options);
         const browser = await puppeteer.launch();
    	const page = await browser.newPage();
     	await page.goto(event.url);
